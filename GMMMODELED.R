@@ -1,0 +1,9 @@
+View(AEM_LevFactor_65273084_Copy_xls)
+data<-AEM_LevFactor_65273084_Copy_xls
+head(data)
+class=data[,2]
+table(class)
+X=data[,3]
+head=(X)
+mod1=Mclust(X)
+summary(mod1)

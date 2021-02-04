@@ -1,0 +1,10 @@
+Procedure of GMM in the MATLAB, R and Python codes
+To perform appropriate GMM, the R and Python codes follow the procedure below, after data set is loaded.
+1. Autoscale each variable (if necessary)
+Autoscaling means centering and scaling. Mean of each variable becomes zero by subtracting mean of each variable from the variable in centering. Standard deviation of each variable becomes one by dividing standard deviation of each variable from the variable in scaling.
+2. Decide the number of clusters or Gaussian distributions
+3. Decide constraints on the covariance matrix
+Constraints are zero covariance, constant variance and so on. You can decide the combination of the number of clusters of Gaussian distributions and constraints on the covariance matrix by changing the number and constraints and minimizing Bayesian Information Criterion (BIC).
+4. Run GMM
+5. Visualize clustering result
+Data visualization is performed by PCA, for example. It is easy to see clusters by changing colors for different clusters in scatter plot.

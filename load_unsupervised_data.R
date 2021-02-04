@@ -1,0 +1,1 @@
+X <- read.csv("data.csv",row.names = 1)
